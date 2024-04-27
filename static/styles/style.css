@@ -21,3 +21,40 @@ body {
     margin-right: auto;
 }
 
+.btn {
+    padding: 14px 45px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn-dark {
+    background-color: var(--text-color);
+    color: var(--white-color);
+}
+
+.btn-orange {
+    background-color: #EB7565;
+    color: var(--white-color);
+}
+.btn-orange:hover {
+    background-color: #F6A560;
+}
+
+.btn-dark:hover {
+    background-color: #755CDE;
+}
+
+    /* Header */
+.header_container {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
