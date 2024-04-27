@@ -1,157 +1,196 @@
 :root {
-    --text-color: #030303;
-    --text-color2: #7A746E;
-    --white-color: #FFF7F0;
+  --text-color: #030303;
+  --text-color2: #7a746e;
+  --white-color: #fff7f0;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Plus Jakarta Sans";
+  font-family: "Plus Jakarta Sans";
+  background-color: var(--white-color);
 }
 
 .container {
-    max-width: 1111px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1111px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn {
-    padding: 14px 45px;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: left;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    transition: all 0.5s;
+  padding: 14px 45px;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
 }
 
 .btn-dark {
-    background-color: var(--text-color);
-    color: var(--white-color);
+  background-color: var(--text-color);
+  color: var(--white-color);
 }
 
 .btn-orange {
-    background-color: #EB7565;
-    color: var(--white-color);
+  background-color: #eb7565;
+  color: var(--white-color);
 }
 .btn-orange:hover {
-    background-color: #F6A560;
+  background-color: #f6a560;
 }
 
 .btn-dark:hover {
-    background-color: #755CDE;
+  background-color: #755cde;
 }
 
-    /* Header */
+/* Header */
 .header_container {
-    padding-top: 34px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-    /* Main */
-    /* Main - design section */
+/* Main */
+/* Main - design section */
 main .design_section {
-    margin-top: 66px;
-    margin-bottom: 136px;
+  margin-top: 66px;
+  margin-bottom: 136px;
 }
 
 main .design_section h1 {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 70.56px;
-    text-align: center;
-    color: var(--text-color);
-    margin-bottom: 23px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 70.56px;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 23px;
 }
 
 main .design_section p {
-    width: 730px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-    color: var(--text-color2);
+  width: 730px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--text-color2);
 }
 
 main .design_section .design_cards {
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 164px 164px 164px 164px 164px 164px;
-    grid-template-rows: 182px 182px;
-    gap: 25px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 164px 164px 164px 164px 164px 164px;
+  grid-template-rows: 182px 182px;
+  gap: 25px;
 }
 
 main .design_section .design_cards a:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 main .design_section .design_cards a:nth-child(2) {
-    grid-column-start: 3;
-    grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 main .design_section .design_cards a:nth-child(3) {
-    grid-column-start: 4;
-    grid-column-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 main .design_section .design_cards a:nth-child(4) {
-    grid-column-start: 5;
-    grid-column-end: 7;
+  grid-column-start: 5;
+  grid-column-end: 7;
 }
 
 main .design_section .design_cards a:nth-child(5) {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 main .design_section .design_cards a:nth-child(6) {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 5;
-    grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 7;
 }
 
-
-    /* Main - consultation section */
+/* Main - consultation section */
 .consultation {
-    margin-bottom: 88px;
-    display: flex;
-    align-items: center;
-    gap: 125px;
+  margin-bottom: 88px;
+  display: flex;
+  align-items: center;
+  gap: 125px;
 }
 
 .consultation .consultation_title h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50.4px;
-    text-align: left;
-    color: var(--text-color);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+  color: var(--text-color);
 }
 
 .consultation .consultation_title p {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: left;
-    color: var(--text-color2);
-    margin-top: 34px;
-    margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: var(--text-color2);
+  margin-top: 34px;
+  margin-bottom: 32px;
+}
+
+/* Main - My work */
+/* ... */
+
+
+/* Main - booking */
+.booking_container {
+  background-color: var(--text-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 81px 95px 80px 65px;
+  border-radius: 8px;
+  margin-bottom: 56px;
+}
+
+.booking_container .booking_title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.booking_container .booking_title p {
+  width: 540px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* Footer */
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

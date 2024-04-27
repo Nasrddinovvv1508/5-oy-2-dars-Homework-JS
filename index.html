@@ -69,8 +69,31 @@
                     I’m Amy, and I’d love to work on your next project
                 </h1>
                 <p>
-                    I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
+                    I love working with others to create beautiful design solutions. I’ve designed everything from brand
+                    illustrations to complete mobile apps. I’m also handy with a camera!
                 </p>
+                <button class="btn btn-orange">
+                    Free Consultation
+                </button>
+            </div>
+        </section>
+
+        <!-- Main - My work section -->
+        <section class="my_work">
+        </section>
+
+        <!-- Main - booking section -->
+        <section class="container booking_container">
+            <div class="booking_title">
+                <h1>
+                    Book a call with me
+                </h1>
+                <p>
+                    I’d love to have a chat to see how I can help you. The best first step is for us to discuss your
+                    project during a free consultation. Then we can move forward from there.
+                </p>
+            </div>
+            <div class="booking_button">
                 <button class="btn btn-orange">
                     Free Consultation
                 </button>
@@ -78,6 +101,61 @@
         </section>
     </main>
 
+    <!-- Footer -->
+    <footer class="container footer_container">
+        <a href="/">
+            <img width="64" height="64" src="./static/img/logo.svg" alt="Logo">
+        </a>
+        <button class="btn btn-dark">
+            Free Consultation
+        </button>
+    </footer>
+
+    <script>
+        /*
+inspiration
+https://dribbble.com/shots/4684682-Aquatic-Animals
+*/
+
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 3,
+                slideShadows: true
+            },
+            keyboard: {
+                enabled: true
+            },
+            mousewheel: {
+                thresholdDelta: 70
+            },
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 1
+                },
+                1024: {
+                    slidesPerView: 2
+                },
+                1560: {
+                    slidesPerView: 3
+                }
+            }
+        });
+
+    </script>
 </body>
 
 </html>
