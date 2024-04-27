@@ -21,6 +21,10 @@ body {
     margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
     padding: 14px 45px;
     font-family: Plus Jakarta Sans;
@@ -57,4 +61,97 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+    /* Main */
+    /* Main - design section */
+main .design_section {
+    margin-top: 66px;
+    margin-bottom: 136px;
+}
+
+main .design_section h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70.56px;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 23px;
+}
+
+main .design_section p {
+    width: 730px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--text-color2);
+}
+
+main .design_section .design_cards {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 164px 164px 164px 164px 164px 164px;
+    grid-template-rows: 182px 182px;
+    gap: 25px;
+}
+
+main .design_section .design_cards a:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main .design_section .design_cards a:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+main .design_section .design_cards a:nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+main .design_section .design_cards a:nth-child(4) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+main .design_section .design_cards a:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+main .design_section .design_cards a:nth-child(6) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+
+    /* Main - consultation section */
+.consultation {
+    margin-bottom: 88px;
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+
+.consultation .consultation_title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+.consultation .consultation_title p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: var(--text-color2);
+    margin-top: 34px;
+    margin-bottom: 32px;
 }
