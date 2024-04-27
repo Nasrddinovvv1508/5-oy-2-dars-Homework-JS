@@ -1,0 +1,23 @@
+:root {
+    --text-color: #030303;
+    --text-color2: #7A746E;
+    --white-color: #FFF7F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans";
+}
+
+.container {
+    max-width: 1111px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
